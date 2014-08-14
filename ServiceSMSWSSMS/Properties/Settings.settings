@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ServiceSMS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AISURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://203.170.228.190:3372/</Value>
+    </Setting>
+    <Setting Name="DTACURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://http://corpsmsweb.dtac.co.th/servlet/com.iess.socket.SmsCorplink</Value>
+    </Setting>
+    <Setting Name="ServerDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="UsernameDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="PasswordDatabase" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="Timeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">6000</Value>
+    </Setting>
+    <Setting Name="Database" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SMSService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
