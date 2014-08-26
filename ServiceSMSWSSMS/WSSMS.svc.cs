@@ -200,7 +200,7 @@ namespace ServiceSMS
                         bool status = ps.InsetSMS(entity, true, requestDetail, responseDetail); 
                     }
                     SMSResult.IsCompleted = true;
-                    SMSResult.Message = "";
+                    SMSResult.Message = responseDetail;
                 }
                 else
                 {
